@@ -16,6 +16,6 @@ We should provide the location of config.properties file as a parameter which in
 
 1. Clone the project into local environment.
 2. Build using "mvn clean install" command.
-3. Run the built .jar file by executing below command. <br />
+3. Run the built .jar file by executing below command. We should provide the config.properties file as a command line argument here. <br />
    **java -jar TopicSubscriber-1.0-SNAPSHOT-jar-with-dependencies.jar config.properties > output.txt 2>&1**
 4. Events will be consumed and persisted into a file called output.txt in the same directory.
